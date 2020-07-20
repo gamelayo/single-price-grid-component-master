@@ -1,0 +1,94 @@
+body{
+  background-color: hsl(204, 43%, 93%);
+  width: 1000px;
+  font-size: 16px;
+  height: 600px;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+
+}
+h1{
+  color: #7fdbda;
+}
+h2{
+  color: #d3de32;
+}
+
+h3{
+  color: #eeeeee;
+}
+p{
+  color:  #eeee;
+}
+
+.paragraph{
+  color: #e0dede;
+}
+
+
+
+
+.main{
+position: relative;
+width: 600px;
+height: 480px;
+margin: 100px 100px 100px 350px;
+
+
+}
+.top-contianer{
+  position: absolute;
+background-color: #ffff;
+width: 560px;
+height: 200px;
+top:28px;
+left: 0px;
+padding: 10px;
+
+
+}
+.middle-contianer{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+height: 210px;
+width: 270px;
+background-color: #24a19c;
+padding: 10px;
+}
+.bottom-contianer{
+  position: absolute;
+  bottom: 0px;
+  left: 290px;
+height: 210px;
+width: 270px;
+background-color: #7fdbda;
+padding: 10px;
+}
+footer{
+  margin-left: 210px;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+	background-color:#7fdbda;
+	border-radius:6px;
+	border:1px solid #83c41a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:11px 50px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #86ae47;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+	background-color:#a5cc52;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
