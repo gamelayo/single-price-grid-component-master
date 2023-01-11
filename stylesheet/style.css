@@ -2,8 +2,10 @@ body{
   background-color: hsl(204, 43%, 93%);
   width: 100vw;
   font-size: 16px;
-  height: 600px;
-  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Karla', sans-serif;
 
 }
@@ -29,7 +31,8 @@ p{
 
 
 .main{
-position: relative;
+display: grid;
+grid-template-columns:auto auto;
 width: 600px;
 height: 480px;
 margin: 100px 100px 100px 350px;
@@ -37,33 +40,21 @@ margin: 100px 100px 100px 350px;
 
 }
 .top-contianer{
-  position: absolute;
+  grid-column: 1 / span 2;
 background-color: #ffff;
 width: 560px;
 height: 200px;
-top:28px;
-left: 0px;
-padding: 10px;
-
-
 }
 .middle-contianer{
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
 height: 210px;
 width: 270px;
 background-color: #24a19c;
-padding: 10px;
+
 }
 .bottom-contianer{
-  position: absolute;
-  bottom: 0px;
-  left: 290px;
 height: 210px;
 width: 270px;
 background-color: #7fdbda;
-padding: 10px;
 }
 footer{
   margin-left: 210px;
